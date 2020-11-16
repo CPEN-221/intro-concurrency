@@ -4,9 +4,9 @@ public class FactorialThread extends Thread {
     private int n;
 
     /**
-     * Create a new Fibonacci thread
+     * Create a new Factorial thread
      *
-     * @param n the Fibonacci number to compute, {@code n >= 0}
+     * @param n the factorial to compute, {@code n >= 0}
      */
     public FactorialThread(int n) {
         this.n = n;
